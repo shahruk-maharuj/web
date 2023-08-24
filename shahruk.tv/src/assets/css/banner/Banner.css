@@ -1,0 +1,67 @@
+.sm_Banner {
+    position: relative;
+    height: 550px;
+    color: white;
+    object-fit: contain;
+    background-color: #0F172A;
+}
+
+.sm_bannerContents {
+    margin-left: 30px;
+    padding-top: 190px;
+    height: 190px;
+}
+
+.sm_bannerTitle {
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+    width: 25rem;
+    line-height: 1.1;
+}
+
+.sm_bannerDescription {
+    width: 45rem;
+    line-height: 1.4;
+    padding-top: 1rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    max-width: 400px;
+    height: 80px;
+}
+
+.sm_bannerButtons {
+    margin-top: 1.2rem;
+}
+
+.sm_bannerButton {
+    cursor: pointer;
+    color: white;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(15, 23, 42, 0.7);
+}
+
+.play {
+    background-color: #35DF92;
+    color: #0F172A;
+}
+
+.sm_bannerButton:hover {
+    color: #0F172A;
+    background-color: rgb(243, 249, 255);
+    transition: all 0.2s;
+
+}
+
+.sm_banner_fadeBottom {
+    height: 23rem;
+    background-image: linear-gradient(180deg, transparent, rgba(15, 23, 42, 0.8), #0F172A);
+}
